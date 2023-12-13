@@ -25,4 +25,4 @@ app.use('/api/post', require('./Routes/api/posts'))
 
 
 
-app.listen(PORT,()=> console.log(`server started on port ${PORT}`))
+app.listen(5000,()=> console.log(`server started on port ${PORT}`))
