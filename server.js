@@ -1,6 +1,9 @@
 const express=require('express');
 const connectDB=require('./config/db')
+const dotenv = require("dotenv")
 // const auth=require('./middleware/auth')
+
+dotenv.config();
 
 const app=express();
 
