@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "set NODE_ENV = development && node index.js",
+    "start-prod": "set NODE_ENV = production && node index.js"
+    
   },
   "author": "Akhil Gupta",
   "license": "ISC",
